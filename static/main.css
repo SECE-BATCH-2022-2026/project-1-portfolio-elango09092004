@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .navigation a{
 
     display: inline;
     position: relative;
     left: 400px;
+=======
+.navigation a{
+
+    display: inline;
+    position: relative;
+    left: 400px;
+>>>>>>> 7c93fd0896959c8cfa63fdb8aefa55ad11ee1e9d
 }
