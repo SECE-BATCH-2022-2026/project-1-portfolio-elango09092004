@@ -5,6 +5,8 @@
     height: 40px;
     padding: 10px; 
     top: 0%;
+    overflow: hidden;
+   
 }
 
 #navi a {
@@ -46,12 +48,18 @@
     
     font-size: 50px;
 }
-#about .para{
+#about {
     
+    
+
   
-   
+   color: yellow;
     font-size: 20px;
 }
+#about-para{
+    width: 50%;
+}
+
 
 #skills{
     padding-top: 80px;
@@ -60,13 +68,51 @@
 }
 #skills-div{
     display: flex;
-    text-wrap: wrap;
-    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+   
 }
 
 .card{
-    background-color: yellow;
+
+    background-color:gold;
     color: black;
     width: 300px;
+    height: 300px;
     box-shadow: 0 0 10px green;
+    border-radius: 25px;
+      
+   
+    
+}
+.card:hover{
+    box-shadow:  0 0 100px white;
+   
+}
+
+
+.img{
+    height: 40px;
+    width: 40px;
+    border-radius: 25%;
+    
+    
+    
+}
+.img:hover{
+    box-shadow: 0 0 8px yellow;
+    height:50px;
+    width: 50px;
+}
+#contact-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    top: 150px;
+    
+
 }
